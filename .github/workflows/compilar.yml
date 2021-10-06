@@ -8,5 +8,5 @@ jobs:
       - name: Compilamos
         run: dotnet build
       - name: Ejecutamos las pruebas
-        run: donet test
+        run: dotnet test
       
