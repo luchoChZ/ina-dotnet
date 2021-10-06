@@ -1,0 +1,9 @@
+name: Compilación y pruebas c#
+on: push
+jobs:
+  Compilacion:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: dotnet build
+      
