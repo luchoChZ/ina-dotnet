@@ -6,4 +6,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: dotnet build
+      - name: Ejecutamos las pruebas
+        run: donet test
       
